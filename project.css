@@ -1,0 +1,198 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header .logo h1,
+.Projects,
+.accessories,
+.contact
+{
+    padding: 0 4% 0 5%;
+}
+
+.Projects h1,
+.accessories h1,
+.contact h1{
+    color: rgb(168, 155, 155);
+    font-size: 50px;
+}
+
+.header {
+    width: 100%;
+    background: #8e9697;
+    background: linear-gradient(57deg, #9ca1a1 , #ec3939); 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+nav{
+    width: 100%; 
+    /*background-color:  red;*/
+    display: flex; 
+    color: white;
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+}
+
+.logo h1 a{
+    line-height: 100px;
+    padding-left: 50px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 50%; 
+    height: 100px;
+    
+}
+
+.menu ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+    flex-wrap: wrap;
+}
+
+.menu ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.menu ul li a,
+.rightside button a,
+.header .logo h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/********************project*************************/
+.container{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.container .card{
+    position: relative;
+    max-width: 300px;
+    height: 200px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover{
+    height: 430px;
+}
+.container .card .content button{
+    height: 38px;
+    width: 80px;
+}
+.container .container .imgbx{
+    position: relative;
+    width: 260px;
+    height: 280px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0, 0,0.2);
+}
+.limg{
+    height: 200px;
+}
+.container .card .imgbx img{
+    max-width:100%;
+    border-radius: 4px;
+}
+.container .card .content{
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+/************footer css***************/
+.fab{
+    font-size:30px;
+    letter-spacing: 20px;
+}
+.footer{
+    bottom:-10px;
+}
+.ft{
+    line-height: 15px;
+}
+.ft p{
+    margin-top: 10px;
+}
+.footer,
+.footer-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+/**********social hover color***************/
+.fa-linkedin:hover{
+    color:#0e76a8;
+}
+.fa-github:hover{
+    color: #4078c0;
+}
+.fa-youtube:hover{
+    color: #FF0000;
+}
+.fa-facebook:hover{
+    color: #4267B2;
+}
+.fa-instagram:hover{
+    color: #3f729b;
+}
+
+footer p{
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.far{
+    font-size: 19px;
+}
+/**********footer content***********/
+.footer-content{
+    letter-spacing: 1px;
+    font-size:16px;
+}
+.footer-content:hover{
+    transition: transform 0.5s;
+}
+.footer-content a,
+.footer a{
+    text-decoration: none;
+    color: black;
+}
+.ft hr{
+    border: 1.5px solid black;
+}

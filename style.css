@@ -300,6 +300,15 @@ section{
 }
 
 
+
+
+/**********payment********************/
+.payment{
+    height:200px;
+    width: 150px;
+}
+
+
 /************contact*****************/
 form input{
     display: block;
@@ -320,7 +329,7 @@ textarea{
     width: 400px;
     padding:15px;
     background-color: rgb(231, 231, 231);
-    border: 3px solid #2dd4cc;
+    border: 3px solid #9b9e9e;
     margin: 20px 0;
     font-size:16px;
     position: relative;
@@ -344,11 +353,6 @@ textarea{
 
 
 
-/**********payment********************/
-.payment{
-    height:200px;
-    width: 150px;
-}
 
 
 

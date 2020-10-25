@@ -344,8 +344,11 @@ textarea{
 
 
 
-
-
+/**********payment********************/
+.payment{
+    height:200px;
+    width: 150px;
+}
 
 
 
@@ -447,3 +450,4 @@ footer p{
 .ft hr{
     border: 1.5px solid black;
 }
+

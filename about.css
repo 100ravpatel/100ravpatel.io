@@ -85,11 +85,12 @@ nav{
     background-color: aquamarine;
     margin: auto;
     margin-top: 150px;
+    flex-wrap: wrap;
 }
 .about-content h1,
 .about-content p{
     color: black;
- 
+    flex-wrap: wrap;
 }
 .about-content h1{
     font-size: 40px;

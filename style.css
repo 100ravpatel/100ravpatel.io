@@ -316,7 +316,7 @@ form input{
     height: 20px;
     padding:15px;
     background-color: rgb(231, 231, 231);
-    border: 3px solid #2dd4cc;
+    border: 3px solid #5b5e5e;
     margin: 20px 0;
     font-size:16px;
     position: relative;
@@ -329,7 +329,7 @@ textarea{
     width: 400px;
     padding:15px;
     background-color: rgb(231, 231, 231);
-    border: 3px solid #9b9e9e;
+    border: 3px solid #5b5e5e;
     margin: 20px 0;
     font-size:16px;
     position: relative;

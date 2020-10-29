@@ -74,6 +74,9 @@ nav{
     text-decoration: none;
 }
 
+.fa-bell{
+    font-size: 20px;
+}
 /************footer css***************/
 .fab{
     font-size:30px;

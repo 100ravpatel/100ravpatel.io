@@ -81,6 +81,12 @@ nav{
     text-decoration: none;
 }
 
+.fa-bell{
+    font-size: 20px;
+}
+
+
+
 section{ 
     display: flex;  
 }

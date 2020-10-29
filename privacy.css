@@ -74,7 +74,9 @@ nav{
     color: white;
     text-decoration: none;
 }
-
+.fa-bell{
+    font-size: 17px;
+}
 /************about container****************/
 .about-content{
     height: 200px;

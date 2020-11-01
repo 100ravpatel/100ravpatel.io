@@ -155,8 +155,9 @@ section{
     letter-spacing: 1px; 
 }
 
-.rightside button{   font-size: 17px;
-    font-weight: 600;
+.rightside button{   
+    
+    font-weight: 60;
     color: white;
     text-transform: uppercase;
     background: linear-gradient(57deg, #ec3939 ,#9ca1a1); 
@@ -164,6 +165,8 @@ section{
     padding: 20px 35px ; 
     letter-spacing: 2px; 
     cursor: pointer;
+    height:auto;
+    width: auto;
 
 }
 .rightside button:hover{

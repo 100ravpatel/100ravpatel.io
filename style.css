@@ -84,10 +84,8 @@ nav{
 .fa-bell{
     font-size: 17px;
 }
-.fa-bell:hover{
-    font-size: 20px;
-    color: yellow;
-}
+
+
 
 section{ 
     display: flex;  

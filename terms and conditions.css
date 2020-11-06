@@ -185,9 +185,14 @@ footer p{
     padding: 0 4% 0 4%;
 }
 .condition-content h6{
-    font-size: 23px;
+    font-size: 25px;
     letter-spacing: 1px;
     font-family: 'Inconsolata', monospace;
+}
+.condition-content .update{
+    font-size:20px ;
+    letter-spacing: 0.5px;
+    color:rgb(116, 108, 108) ;
 }
 .condition-content p{
     font-size: 20px;
